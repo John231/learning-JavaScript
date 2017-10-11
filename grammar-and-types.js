@@ -1,11 +1,13 @@
-/*
- * Dies ist eine JavaScript-Umgebung.
- *
- * Geben Sie etwas JavaScript ein und führen Sie einen Rechtsklick aus oder wählen Sie aus dem Ausführen-Menü:
- * 1. Ausführen, um den ausgewählten Text zu evaluieren (Cmd-R),
- * 2. Untersuchen, um den Objekt-Inspektor auf das Resultat anzuwenden (Cmd-I), oder
- * 3. Anzeigen, um das Ergebnis in einem Kommentar hinter der Auswahl einzufügen. (Cmd-L)
- */
+printTitleToConsole('GRAMMAR & TYPES');
+
+function printTitleToConsole(titleText){
+    // print the title in the console
+    var titleBorder = '';
+    for(let i=0; i<titleText.length;i++){
+        titleBorder += '=';
+    }
+    console.log(titleBorder + '\n' + titleText + '\n' + titleBorder);
+}
 
 function greetMe(name){
     alert('Hello ' + name);

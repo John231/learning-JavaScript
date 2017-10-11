@@ -1,3 +1,14 @@
+printTitleToConsole('FUNCTIONS');
+
+function printTitleToConsole(titleText){
+    // print the title in the console
+    var titleBorder = '';
+    for(let i=0; i<titleText.length;i++){
+        titleBorder += '=';
+    }
+    console.log(titleBorder + '\n' + titleText + '\n' + titleBorder);
+}
+
 /*
  * Standard function expression
  */

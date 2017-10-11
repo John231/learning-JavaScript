@@ -1,3 +1,13 @@
+printTitleToConsole('LOOPS & ITERATION');
+
+function printTitleToConsole(titleText){
+    // print the title in the console
+    var titleBorder = '';
+    for(let i=0; i<titleText.length;i++){
+        titleBorder += '=';
+    }
+    console.log(titleBorder + '\n' + titleText + '\n' + titleBorder);
+}
 /*
  * Example for loop - prints the shopping list array to screen
  */
