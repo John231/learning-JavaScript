@@ -67,4 +67,4 @@ function getMonth(monthIdx){
 // run the exampleErrorHandler method
 exampleErrorHandler();
 // Check result of checkForError method
-checkForError('error');
+//checkForError('error');
