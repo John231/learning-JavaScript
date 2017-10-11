@@ -29,7 +29,7 @@ document.body.appendChild(div1);
  */
 var div2 = document.createElement('div');
 var autoDescription = document.createElement('p');
-autoDescription.textContent = 'Ich mag die folgende Automarken: '
+autoDescription.textContent = 'Hier sind ein paar Automarken: '
 div2.appendChild(autoDescription);
 var autos = ['Mercedez', 'BMW', 'Audi', 'Porsche'];
 var autoListe = document.createElement('ul');
