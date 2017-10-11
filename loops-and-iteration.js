@@ -76,3 +76,33 @@ for(let i=0;i<3;i++){
         console.log('i = ' + i + ', j = ' + j);
     }
 }
+
+/*
+ * example for..in loop
+ */
+
+// constructor for a car object
+function Car(make,model){
+    this.make = make;
+    this.model = model;
+}
+var testCar = new Car('Mercedes', 'A-Klasse');
+
+// for..in loop on object
+for (let x in testCar) {
+    console.log(x);
+}
+
+/*
+ * example for..of loop
+ */
+var numberArray = [1,2,3,4,5,6];
+numberArray.foo = 'hello';
+for (let i in numberArray){
+    // prints the index
+    console.log(i)
+}
+for (let i of numberArray){
+    // prints out the property values stored in the array
+    console.log(i)
+}
